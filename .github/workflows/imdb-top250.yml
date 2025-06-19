@@ -1,4 +1,4 @@
-name: Scrape IMDb Top 250 daily by 23f1002104@ds.study.iim.ac.in
+name: Scrape IMDb Top 250 daily by 23f1002104@ds.study.iitm.ac.in
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
         run: | # python
           uv run --with httpx,lxml,cssselect python scrape.py
 
-      - name: Commit and push changes
+      - name: Commit and push changes by 23f1002104@ds.study.iitm.ac.in
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
